@@ -97,9 +97,9 @@ public class Addr {
 		}
 	}
 	
-//	@Override
-//	public int hashCode() {		// 오버라이딩을 하지 않았을 경우 기본적으로 객체의 주소 값을 가지고 해쉬값을 가짐.
-//		
-//		return no.hashCode();
-//	}
+	@Override
+	public int hashCode() {		// 오버라이딩을 하지 않았을 경우 기본적으로 객체의 주소 값을 가지고 해쉬값을 가짐.
+		
+		return no.hashCode();
+	}
 }
